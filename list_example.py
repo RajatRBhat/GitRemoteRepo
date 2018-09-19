@@ -10,10 +10,12 @@ def append(value):
     list_obj.append(value)
     return list_obj
     
-def remove(index):
-    pass
+def remove(value):
+    list_obj.remove(value)
+    return list_obj
 
 def pop_elem():
     pass
     
 print(append(100))
+print(remove('raj'))
