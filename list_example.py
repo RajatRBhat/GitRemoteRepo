@@ -15,7 +15,9 @@ def remove(value):
     return list_obj
 
 def pop_elem():
-    pass
+    list_obj.pop()
+    return list_obj
     
 print(append(100))
 print(remove('raj'))
+print(pop_elem())
